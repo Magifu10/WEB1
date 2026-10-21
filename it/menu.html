@@ -1,0 +1,62 @@
+<html>
+ <head>
+  <meta name="Author" content="M.G.F.L.">
+  <meta name="description" content="Welcome, Benvenuto, Bienvenido">
+  <meta name="Keywords" content="Family, Familia, Famiglia">
+  <title="PaGiMa's Home page">
+  </title>
+  <script type="text/javascript">
+  <!--
+   function MRestore() {
+    var i,x,a=document.Msr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+   }
+   function Mload() {
+    var d=document; if(d.images){
+     if(!d.Mp) d.Mp=new Array();
+     var i,j=d.Mp.length,a=Mload.arguments;
+     for(i=0; i<a.length; i++)
+ if (a[i].indexOf("#")!=0){
+      d.Mp[j]=new Image; d.Mp[j++].src=a[i];
+     }
+    }
+   }
+   function MfindO(n, d) {
+    var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+     d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);
+    }
+    if(!(x=d[n])&&d.all) x=d.all[n];
+    for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+    for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MfindO(n,d.layers[i].document); return x;
+   }
+   function Mswap() {
+    var i,j=0,x,a=Mswap.arguments; document.Msr=new Array;
+    for(i=0;i<(a.length-2);i+=3)
+    if ((x=MfindO(a[i]))!=null){
+     document.Msr[j++]=x;
+     if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];
+    }
+   }
+  //-->
+  </script>
+ </head>
+ <body background="../ima/fon.gif" Link="#FF0000" vlink="#000FF0" text="#000000" onload="Mload('ima/usa0','ima/esp0','ima/ita0')">
+  <table width="100%" cellpadding="3">
+   <tr valign="middle"><center><br><img src="../ima/logo.gif" vspace="50"><br></center></tr>
+  </table>
+  <table border-spacing: 500px;>
+   <tr><center><br><br>-----ooOoo-----<br><br></center></tr>
+  </table>
+  <table width="100%" cellspacing="0" cellpadding="0">
+   <tr>
+    <td width="33%"><center><a onmouseout="MRestore()" onmouseover="Mswap('usa','','../ima/usa0.gif',1)" href="../en/menu.html"><img src="../ima/usa.gif" border="0" vspace="25" hspace="10" alt="Welcome" name="usa"></td>
+    <td width="34%"><center><img src="../Ima/ita.gif" border="0" vspace="2" hspace="10" alt="Benvenuto" name="ita"></td>
+    <td width="33%"><center><a onmouseout="MRestore()" onmouseover="Mswap('esp','','../ima/esp0.gif',1)" href="../es/menu.html"><img src="../ima/esp.gif" border="0" vspace="25" hspace="10" alt="Bienvenido" name="esp"></td>
+   </tr>
+  </table>
+  <table width="100%">
+   <tr><br></tr>
+   <tr><center><img src="../ima/et.gif" border="0" vspace="50" hspace="10" alt="Laborando" name="ita"></tr>
+   <tr><center><font size="10" color="#0000FF">Siamo al lavoro...</tr>
+  </table>
+ </body>
+</html>
